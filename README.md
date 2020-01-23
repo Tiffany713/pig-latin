@@ -11,9 +11,9 @@ Specs:
 * Behavior: The program adds "ay" to single-letter words beginning with a vowel.
     * Input i
     * Output iay
-* Behavior: For words beginning with a vowel, add "way" to the end.
+<!-- * Behavior: For words beginning with a vowel, add "way" to the end.
     * Input Apple
-    * Output Appleway
+    * Output Appleway -->
 * Behavior: For words beginning with one or more consonants, move all of the first consecutive consonants to the end, and add "ay"
     * Input Fruits
     * Output uitsFray
@@ -26,5 +26,3 @@ Specs:
 * Behavior: The program does nothing to non-alphabetical characters, since they do not contain consonants or vowels.
     * Input 3
     * Output 3
-
-    
